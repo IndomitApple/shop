@@ -7,10 +7,10 @@
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">Email</th>
-                <th scope="col">Imię</th>
-                <th scope="col">Nazwisko</th>
-                <th scope="col">Numer telefonu</th>
-                <th scope="col">Akcje</th>
+                <th scope="col">{{ __('Name') }}</th>
+                <th scope="col">{{ __('Surname') }}</th>
+                <th scope="col">{{ __('Phone Number') }}</th>
+                <th scope="col">{{ __('shop.columns.actions') }}</th>
             </tr>
             </thead>
             <tbody>

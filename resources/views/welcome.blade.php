@@ -80,7 +80,7 @@
                     </div>
                 </div>
             </div><div class="col-md-4 order-md-1 col-lg-3 sidebar-filter">
-                <h3 class="mt-0 mb-5">Produkty <span class="text-primary">{{ count($products) }}</span></h3>
+                <h3 class="mt-0 mb-5">{{ __('shop.welcome.products') }} <span class="text-primary">{{ count($products) }}</span></h3>
                 <h6 class="text-uppercase font-weight-bold mb-3">Categories</h6>
                 <div class="mt-2 mb-2 pl-2">
                     <div class="custom-control custom-checkbox">
