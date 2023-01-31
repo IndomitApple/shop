@@ -1,6 +1,12 @@
 <?php
 
 return [
+    'welcome' => [
+        'products' => 'Products',
+        'categories' => 'Categories',
+        'price' => 'Price',
+        'filter' => 'Search'
+    ],
     'columns' => [
         'actions' => 'Actions'
     ],
@@ -22,6 +28,7 @@ return [
             'amount' => 'Amount',
             'price' => 'Price',
             'image' => 'Image',
+            'category' => 'Category',
         ]
     ]
 ];

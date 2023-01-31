@@ -2,7 +2,10 @@
 
 return [
     'welcome' => [
-        'products' => 'Produkty'
+        'products' => 'Produkty',
+        'categories' => 'Kategorie',
+        'price' => 'Cena',
+        'filter' => 'Filtruj'
     ],
     'menu' => [
         'products' => 'Produkty'
@@ -28,6 +31,7 @@ return [
             'amount' => 'Ilość',
             'price' => 'Cena',
             'image' => 'Obraz',
+            'category' => 'Kategoria',
         ]
     ]
 ];

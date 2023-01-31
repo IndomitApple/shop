@@ -17,6 +17,7 @@
                 <thead>
                 <tr>
                     <th scope="col">{{ __('shop.product.fields.name') }}</th>
+                    <th scope="col">{{ __('shop.product.fields.category') }}</th>
                     <th scope="col">{{ __('shop.product.fields.description') }}</th>
                     <th scope="col">{{ __('shop.product.fields.amount') }}</th>
                     <th scope="col">{{ __('shop.product.fields.price') }}</th>
@@ -28,6 +29,7 @@
                     <tr>
                         <th scope="row">{{ $product->id }}</th>
                         <td>{{ $product->name }}</td>
+                        <td>@if($product->hasCategory()){{ $product->category->name }}@endif</td>
                         <td>{{ $product->description }}</td>
                         <td>{{ $product->amount }}</td>
                         <td>{{ $product->price }}</td>
