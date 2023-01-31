@@ -48,6 +48,9 @@ return [
             'delete' => [
                 'success' => 'User deleted!'
             ],
+            'update' => [
+                'success' => 'User updated!'
+            ],
         ],
     ],
 ];

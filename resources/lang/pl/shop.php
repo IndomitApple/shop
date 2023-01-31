@@ -51,6 +51,9 @@ return [
             'delete' => [
                 'success' => 'Użytkownik usunięty!'
             ],
+            'update' => [
+                'success' => 'Profil użytkownika został zaktualizowany!'
+            ],
         ],
     ],
 ];

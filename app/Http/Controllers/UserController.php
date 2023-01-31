@@ -92,7 +92,7 @@ class UserController extends Controller
             $address = new Address($addressValidated);
         }
         $user->address()->save($address);
-        return redirect(route('users.index'))->with('status', __('shop.product.status.update.success'));
+        return redirect(route('users.index'))->with('status', __('shop.user.status.update.success'));
     }
 
     /**
