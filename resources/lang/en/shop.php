@@ -22,6 +22,17 @@ return [
         'edit_title' => 'Edit product: :name',
         'show_title' => 'Show product',
         'index_title' => 'List products',
+        'status' => [
+            'store' => [
+                'success' => 'Product stored!'
+            ],
+            'update' => [
+                'success' => 'Product updated!'
+            ],
+            'delete' => [
+                'success' => 'Product deleted!'
+            ],
+        ],
         'fields' => [
             'name' => 'Name',
             'description' => 'Description',
@@ -30,5 +41,13 @@ return [
             'image' => 'Image',
             'category' => 'Category',
         ]
-    ]
+    ],
+    'user' => [
+        'index_title' => 'List users',
+        'status' => [
+            'delete' => [
+                'success' => 'User deleted!'
+            ],
+        ],
+    ],
 ];
